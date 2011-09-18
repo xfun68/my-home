@@ -101,5 +101,5 @@ fi
 hello()
 {
   greeting="$*"
-  echo "hello ${greeting}"
+  echo hello "${greeting:-Xiaofeng}"
 }
